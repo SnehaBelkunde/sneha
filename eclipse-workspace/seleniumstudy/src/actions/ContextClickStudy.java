@@ -18,6 +18,8 @@ public class ContextClickStudy {
 		
 		Actions act=new Actions(driver);
 		
+		/////////hiiiiiiiii/////
+		
 		WebElement rightclick=driver.findElement(By.xpath("//span[text()='right click me']"));
 		
 		act.contextClick(rightclick).perform();
