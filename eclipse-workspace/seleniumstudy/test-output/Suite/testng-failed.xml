@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="PaytmTest(failed)">
+    <classes>
+      <class name="TestNGSeraillyParallely.SerailTest1">
+        <methods>
+          <include name="PaytmLaunch"/>
+        </methods>
+      </class> <!-- TestNGSeraillyParallely.SerailTest1 -->
+    </classes>
+  </test> <!-- PaytmTest(failed) -->
+  <test thread-count="5" parallel="tests" name="PhonepayTest(failed)">
+    <classes>
+      <class name="TestNGSeraillyParallely.SerialTest2">
+        <methods>
+          <include name="phonepayLaunch"/>
+        </methods>
+      </class> <!-- TestNGSeraillyParallely.SerialTest2 -->
+    </classes>
+  </test> <!-- PhonepayTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
